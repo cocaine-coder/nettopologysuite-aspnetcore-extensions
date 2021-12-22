@@ -14,7 +14,7 @@ builder.Services.AddControllers()
     });
 ```
 
-`Setup.cs` in **net5 or later**
+`Startup.cs` in **net5 or later**
 
 ```csharp
 Services.AddControllers()

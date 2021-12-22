@@ -2,9 +2,8 @@ name: .NET
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    tags: # 当提交代码为tag触发 如 git push origin v0.1.0
+      - 'v*'
 
 jobs:
   build:
