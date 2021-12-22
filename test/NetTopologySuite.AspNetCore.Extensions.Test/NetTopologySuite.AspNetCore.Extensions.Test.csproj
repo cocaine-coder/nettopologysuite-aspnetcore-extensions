@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Jas.AspNetCore.Extensions\NetTopologySuite.AspNetCore.Extensions.csproj" />
+    <ProjectReference Include="..\..\src\NetTopologySuite.AspNetCore.Extensions\NetTopologySuite.AspNetCore.Extensions.csproj" />
   </ItemGroup>
 
 </Project>
