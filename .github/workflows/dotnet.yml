@@ -20,8 +20,10 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
+      working-directory: ./src/NetTopologySuite.AspNetCore.Extensions/
     - name: Test
       run: dotnet test --no-build --verbosity normal
+      working-directory: ./test/NetTopologySuite.AspNetCore.Extensions.Test/
     - name: Publish
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
