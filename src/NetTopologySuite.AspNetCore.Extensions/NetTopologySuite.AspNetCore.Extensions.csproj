@@ -2,7 +2,21 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>tracy</Authors>
+		<Version>1.0.2</Version>
+		<PackageProjectUrl>https://github.com/cocaine-coder/nettopologysuite-aspnetcore-extensions</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/cocaine-coder/nettopologysuite-aspnetcore-extensions</RepositoryUrl>
+		<Description>extension of NetTopologySuite with AspNetCore,provide wkt-format-translate in controller json-convert and swagger document.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="NetTopologySuite.IO.GeoJSON" Version="2.0.4" />
