@@ -1,5 +1,7 @@
 # nettopologysuite-aspnetcore-extensions
 
+[![NuGet](https://img.shields.io/nuget/vpre/NetTopologySuite.AspNetCore.Extensions.svg)](https://www.nuget.org/packages/NetTopologySuite.AspNetCore.Extensions)
+
 **[NetTopologySuite](https://www.nuget.org/packages/NetTopologySuite/)** 的扩展, 更加快速的与 aspnetcore 及 swagger ui 结合.
 
 ## aspnetcore 程序中的序列化
