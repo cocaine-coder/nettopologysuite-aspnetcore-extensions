@@ -1,4 +1,6 @@
-# nettopologysuite-aspnetcore-extensions
+# nettopologysuite-aspnetcore-extensions [中文](./README.zh.md)
+
+[![NuGet](https://img.shields.io/nuget/vpre/NetTopologySuite.AspNetCore.Extensions.svg)](https://www.nuget.org/packages/NetTopologySuite.AspNetCore.Extensions)
 
 the extensions for **[NetTopologySuite](https://www.nuget.org/packages/NetTopologySuite/)** , work well with aspnetcore controller and swagger ui.
 
