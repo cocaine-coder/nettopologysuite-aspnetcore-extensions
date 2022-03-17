@@ -4,12 +4,12 @@ using Xunit;
 
 namespace NetTopologySuite.AspNetCore.Extensions.Test
 {
-    public class WktJsonConverterTest
+    public class WktJsonSerializeTest
     {
         static readonly JsonSerializerOptions jsonSerializerOptions = new JsonSerializerOptions();
         static int once = 0;
 
-        public WktJsonConverterTest()
+        public WktJsonSerializeTest()
         {
             if (once == 0)
             {

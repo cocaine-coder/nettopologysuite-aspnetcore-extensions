@@ -12,7 +12,14 @@ namespace NetTopologySuite.AspNetCore.Extensions
     {
         public override T Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
         {
-            return SpatialDataConverter.WktToGeometry<T>(reader.GetString());
+            try
+            {
+                return SpatialDataConverter.WktToGeometry<T>(reader.GetString());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
         public override void Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)

@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetTopologySuite.AspNetCore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoApiServer", "simples\GeoApiServer\GeoApiServer.csproj", "{6E7F8B28-9EAB-4CF9-8E1D-EEA5BFFD8AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTopologySuite.AspNetCore.Extensions.Test", "test\NetTopologySuite.AspNetCore.Extensions.Test\NetTopologySuite.AspNetCore.Extensions.Test.csproj", "{F6D57489-B308-485C-8BBB-3EEF56DA02FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetTopologySuite.AspNetCore.Extensions.Test", "test\NetTopologySuite.AspNetCore.Extensions.Test\NetTopologySuite.AspNetCore.Extensions.Test.csproj", "{F6D57489-B308-485C-8BBB-3EEF56DA02FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28D340FB-A97A-415C-A9B8-97B0378BE82B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "simples", "simples", "{08E39E82-15FC-4F9F-BCEE-8FE2D5776E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4BFD3A4D-88C6-4546-AC63-249E4D8B490E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EACBB1BD-B038-4800-B5B8-38795F4B4225} = {28D340FB-A97A-415C-A9B8-97B0378BE82B}
+		{6E7F8B28-9EAB-4CF9-8E1D-EEA5BFFD8AAE} = {08E39E82-15FC-4F9F-BCEE-8FE2D5776E53}
+		{F6D57489-B308-485C-8BBB-3EEF56DA02FA} = {4BFD3A4D-88C6-4546-AC63-249E4D8B490E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F764D95-A465-40C1-82D4-FAD26F516D49}
