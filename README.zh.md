@@ -1,10 +1,10 @@
-# nettopologysuite-aspnetcore-extensions [中文](./README.zh.md)
+# nettopologysuite-aspnetcore-extensions
 
 [![NuGet](https://img.shields.io/nuget/vpre/NetTopologySuite.AspNetCore.Extensions.svg)](https://www.nuget.org/packages/NetTopologySuite.AspNetCore.Extensions)
 
-the extensions for **[NetTopologySuite](https://www.nuget.org/packages/NetTopologySuite/)** , work well with aspnetcore controller and swagger ui.
+**[NetTopologySuite](https://www.nuget.org/packages/NetTopologySuite/)** 的扩展, 更加快速的与 aspnetcore 及 swagger ui 结合.
 
-## JsonSerializer in aspnetcore
+## aspnetcore 程序中的序列化
 
 `Program.cs` in **net6** 
 
@@ -26,7 +26,7 @@ Services.AddControllers()
     });
 ```
 
-## JsonSerializer in other projects
+## 在其他项目中序列化
 
 ```csharp
 JsonSerializerOptions jsonSerializerOptions = new JsonSerializerOptions();
@@ -37,7 +37,7 @@ var point = new Point(1,3);
 var result = JsonSerializer.Serialize(point, jsonSerializerOptions);
 ```
 
-## For Swagger UI
+## Swagger UI
 
 ```csharp
 Services.AddSwaggerGen(options =>
