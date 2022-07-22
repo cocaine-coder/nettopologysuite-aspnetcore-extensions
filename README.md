@@ -1,6 +1,6 @@
 # nettopologysuite-aspnetcore-extensions [中文](./README.zh.md)
 
-this project achived， Please use [NetTopologySuite.IO.GeoJSON4STJ](https://www.nuget.org/packages/NetTopologySuite.IO.GeoJSON4STJ)
+this project archive, Please use [NetTopologySuite.IO.GeoJSON4STJ](https://www.nuget.org/packages/NetTopologySuite.IO.GeoJSON4STJ) instead
 
 [![NuGet](https://img.shields.io/nuget/vpre/NetTopologySuite.AspNetCore.Extensions.svg)](https://www.nuget.org/packages/NetTopologySuite.AspNetCore.Extensions)
 
